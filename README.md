@@ -22,6 +22,7 @@ This project was designed to simulate real-world enterprise backend systems with
 ---
 ## Project Structure
 
+```bash
 src/main/java
 ├── controller
 ├── service
@@ -30,6 +31,7 @@ src/main/java
 ├── dto
 ├── exception
 └── config
+```
 
 ## Architecture Flow
 
@@ -71,6 +73,20 @@ Client Request → REST API → Controller Layer → Service Layer → Repositor
 * Kubernetes Support
 
 ---
+
+## Sample API Endpoints
+
+| Method | Endpoint           | Description        |
+| ------ | ------------------ | ------------------ |
+| GET    | /api/products      | Get all products   |
+| GET    | /api/products/{id} | Get product by ID  |
+| POST   | /api/products      | Create new product |
+| PUT    | /api/products/{id} | Update product     |
+| DELETE | /api/products/{id} | Delete product     |
+| POST   | /api/orders        | Create order       |
+| GET    | /api/orders        | Fetch orders       |
+
+
 
 ## Author
 
