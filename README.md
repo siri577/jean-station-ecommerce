@@ -20,6 +20,20 @@ This project was designed to simulate real-world enterprise backend systems with
 * Docker-Based Deployment
 
 ---
+Project Structure
+
+src/main/java
+├── controller
+├── service
+├── repository
+├── entity
+├── dto
+├── exception
+└── config
+
+Architecture Flow
+
+Client Request → REST API → Controller Layer → Service Layer → Repository Layer → MySQL Database
 
 ## Technologies Used
 
